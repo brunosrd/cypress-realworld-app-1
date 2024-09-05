@@ -1,0 +1,26 @@
+{
+    "userSuccess": {
+      "firstname": "Bruno",
+      "lastname": "Ribeiro",
+      "username": "brunosrd",
+      "password": "test123",
+      "confirmPassword": "test123"
+    },
+    "userFail": {
+      "firstname": "Pedro",
+      "lastname": "Da Costa",
+      "username": "brunosrib",
+      "password": "654321",
+      "confirmPassword": "654321"
+    },
+    "userBank": {
+      "bankName": "Inter",
+      "routingName": "123456789",
+      "accountNumber": "1231993458"
+    },
+    "userTransaction": {
+      "userSearch": "Gustavo Guanabara",
+      "userValue": "10.00",
+      "userAmount": "Loja"
+    }
+  }
