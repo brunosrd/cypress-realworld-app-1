@@ -1,10 +1,10 @@
-import login from "../../pages/loginpage"
-import home from "../../pages/homePage"
+import LoginPage from "../../pages/loginpage"
+import HoemPage from "../../pages/homePage"
 import topBarMenu from "../../pages/topBarMenuPage";
 import createAccount from "../../pages/createAccountPage";
 
-const loginPage = new login()
-const homePage = new home()
+const loginPage = new LoginPage()
+const homePage = new HoemPage()
 const topBarMenuPage = new topBarMenu()
 const createAccountPage = new createAccount()
 

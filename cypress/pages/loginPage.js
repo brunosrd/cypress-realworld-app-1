@@ -21,15 +21,15 @@ class LoginPage {
         cy.get(this.selectorsList().signInButton).should('be.visible')
     }
 
-    loginWithAnyUser(username, password) {
-        cy.get(this.selectorsList().usernameField).type(username)
-        cy.get(this.selectorsList().passawordField).type(password)
+    loginWithAnyUser() {
+        cy.get(this.selectorsList().usernameField).type("Bruno")
+        cy.get(this.selectorsList().passawordField).type("test123")
         cy.get(this.selectorsList().signInButton).click()
     }
 
-    loginWithAnyUserFail(username, password) {
-        cy.get(this.selectorsList().usernameField).type(username)
-        cy.get(this.selectorsList().passawordField).type(password)
+    loginWithAnyUserFail() {
+        cy.get(this.selectorsList().usernameField).type("Bruno")
+        cy.get(this.selectorsList().passawordField).type("123")
         cy.get(this.selectorsList().signInButton).click()
     }
 

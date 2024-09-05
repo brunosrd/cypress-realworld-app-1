@@ -15,7 +15,7 @@ class createAccount {
             routingNameField: "[data-test='bankaccount-routingNumber-input']",
             accountNumberField: "[data-test='bankaccount-accountNumber-input']",
             saveButton: "[data-test='bankaccount-submit']",
-            createAccountDoneField: ".MuiGrid-root > a"
+            createAccountDoneField: ".MuiGrid-root > a",
         }
 
         return selectors
@@ -49,7 +49,7 @@ class createAccount {
     }
 
     createNewAccountFail(firstname, lastname, username, password, confirmPassword) {
-        cy.get(this.selectorsList().firstNameField).type(firstname)
+        cy.get(this.selectorsList().firstNameField).type(userDfirstname)
         cy.get(this.selectorsList().lastNameField).type(lastname)
         cy.get(this.selectorsList().usernameField).type(username)
         cy.get(this.selectorsList().passwordField).type(password)

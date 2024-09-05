@@ -74,6 +74,17 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "ML626SJR2",
+      "uuid": "e2d55e8b-cd39-4489-a79f-77fe015fb6ea",
+      "firstName": "Bruno",
+      "lastName": "Ribeiro",
+      "username": "brunosrd",
+      "password": "$2a$10$qM1vEYnniAtXXflPxM/arOkFqDeu6PHRVIGnb34LSNYyd7zb63LkC",
+      "balance": 0,
+      "createdAt": "2024-09-05T22:25:31.614Z",
+      "modifiedAt": "2024-09-05T22:25:31.614Z"
     }
   ],
   "contacts": [
